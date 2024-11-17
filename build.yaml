@@ -19,7 +19,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: cradio_left
+    shield: FerrisSweep_left
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
-    shield: cradio_right
+    shield: FerrisSweep_right
