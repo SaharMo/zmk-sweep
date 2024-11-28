@@ -52,16 +52,16 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ INSERT   │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
+        //│ INSERT   │  1       │  2       │  3       │          │   │    6     │     7    │     8    │     9    │    0     │
              &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9    &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ DLLR     │  PLUS    │  LPAR    │  RPAR    │    AT    │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp DLLR   &kp PLUS   &kp LPAR   &kp RPAR    &kp AT         &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &kp SEMI
+        //│ DLLR     │  PLUS    │  LPAR    │  RPAR    │    AT    │   │  PIPE2   │  MINUS   │   EQUAL  │   UNDER  │  ASTRK   │
+            &kp DLLR   &kp PLUS   &kp LPAR   &kp RPAR    &kp AT        &kp PIPE2  &kp MINUS &kp EQUAL  &kp UNDER  &kp ASTRK         
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│   EXCL   │  HASH    │  LBRC    │  RBRC    │  TILDE   │   │          │          │          │          │          │
-            &kp EXCL   &kp HASH   &kp LBRC   &kp RBRC  &kp TILDE     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &kp N0 &bt BT_CLR
+        //│   EXCL   │  HASH    │  LBRC    │  RBRC    │  TILDE   │   │   AMPS   │   LBKT   │   RBKT   │  PRCNT   │   CARET  │
+            &kp EXCL   &kp HASH   &kp LBRC   &kp RBRC  &kp TILDE       &kp AMPS   &kp LBKT   &kp RBKT  &kp PRCNT   &kp CARET
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp ESC        &trans     &trans
+                                             &trans      &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
